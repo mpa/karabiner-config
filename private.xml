@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>F15 to prev song</name>
+		<identifier>private.f15_to_prev</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::F15,
+			ConsumerKeyCode::MUSIC_PREV
+		</autogen>
+	</item>
+  <item>
+    <name>F16 to play/pause</name>
+    <identifier>private.f16_to_play_pause</identifier>
+    <autogen>
+    	__KeyToKey__
+    	KeyCode::F16,
+    	ConsumerKeyCode::MUSIC_PLAY
+    </autogen>
+  </item>
+  <item>
+    <name>F17 to next song</name>
+    <identifier>private.f17_to_next</identifier>
+    <autogen>
+    	__KeyToKey__
+    	KeyCode::F17,
+    	ConsumerKeyCode::MUSIC_NEXT
+    </autogen>
+  </item>
+
+  <item>
+    <name>F18 to vol up</name>
+    <identifier>private.f18_to_vol_down</identifier>
+    <autogen>
+    	__KeyToKey__
+    	KeyCode::F18,
+    	ConsumerKeyCode::VOLUME_DOWN
+    </autogen>
+  </item>
+
+  <item>
+    <name>F19 to vol up</name>
+    <identifier>private.f19_to_vol_up</identifier>
+    <autogen>
+    	__KeyToKey__
+    	KeyCode::F19,
+    	ConsumerKeyCode::VOLUME_UP
+    </autogen>
+  </item>
+
+</root>
